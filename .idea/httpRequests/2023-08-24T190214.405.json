@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-08-24T17:02:14.041+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/api/appointments/1"
+}

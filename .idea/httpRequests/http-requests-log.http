@@ -1,0 +1,513 @@
+POST http://localhost:3306/api/appointment
+Content-Type: application/json
+Content-Length: 363
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac2",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+    "doctor": {
+      "firstName": "Doctor",
+      "lastName": "Doc2",
+      "age": 34,
+      "email": "prueba@gmail.com"
+    },
+  "room": {
+    "roomName": "Sala 2"
+  },
+  "startsAt": "18:30 12/11/2022",
+  "finishesAt": "20:45 12/11/2022"
+}
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 363
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac2",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+    "doctor": {
+      "firstName": "Doctor",
+      "lastName": "Doc2",
+      "age": 34,
+      "email": "prueba@gmail.com"
+    },
+  "room": {
+    "roomName": "Sala 2"
+  },
+  "startsAt": "18:30 12/11/2022",
+  "finishesAt": "20:45 12/11/2022"
+}
+
+###
+
+PUT http://localhost:8080/api/appointments/2
+Content-Type: application/json
+Content-Length: 126
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient_id": 4,
+  "doctor_id": 3,
+  "room_id": 1,
+  "startsAt": "15:30 12/11/2022",
+  "finishes_at": "16:00 12/11/2022"
+}
+
+<> 2023-08-24T191200.405.json
+
+###
+
+PUT http://localhost:8080/api/appointments/2
+Content-Type: application/json
+Content-Length: 136
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 2,
+  "patient_id": 4,
+  "doctor_id": 3,
+  "room_id": 1,
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "16:00 12/11/2022"
+}
+
+<> 2023-08-24T191021.405.json
+
+###
+
+PUT http://localhost:8080/api/appointments/2
+Content-Type: application/json
+Content-Length: 348
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+  "doctor": {
+    "firstName": "Doctor",
+    "lastName": "Doc",
+    "age": 34,
+    "email": "nuevo@gmail.com"
+  },
+  "room": {
+    "roomName": "Sala 1"
+  },
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "15:45 12/11/2022"
+}
+
+<> 2023-08-24T190829.405.json
+
+###
+
+PUT http://localhost:8080/api/appointments/1
+Content-Type: application/json
+Content-Length: 2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{}
+
+<> 2023-08-24T190214.405.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 361
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+    "doctor": {
+      "firstName": "Doctor",
+      "lastName": "Doc",
+      "age": 34,
+      "email": "prueba@gmail.com"
+    },
+  "room": {
+    "roomName": "Sala 1"
+  },
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "15:45 12/11/2022"
+}
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T172413.400.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 361
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+    "doctor": {
+      "firstName": "Doctor",
+      "lastName": "Doc",
+      "age": 34,
+      "email": "prueba@gmail.com"
+    },
+  "room": {
+    "roomName": "Sala 1"
+  },
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "15:45 12/11/2022"
+}
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 361
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+    "doctor": {
+      "firstName": "Doctor",
+      "lastName": "Doc",
+      "age": 34,
+      "email": "prueba@gmail.com"
+    },
+  "room": {
+    "roomName": "Sala 1"
+  },
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "15:45 12/11/2022"
+}
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 361
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "firstName": "Paciente",
+    "lastName": "Pac",
+    "age": 34,
+    "email": "prueba@gmail.com"
+  },
+    "doctor": {
+      "firstName": "Doctor",
+      "lastName": "Doc",
+      "age": 34,
+      "email": "prueba@gmail.com"
+    },
+  "room": {
+    "roomName": "Sala 1"
+  },
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "15:45 12/11/2022"
+}
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 172
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "15:30 12/11/2022",
+  "finishesAt": "15:45 12/11/2022"
+}
+
+<> 2023-08-24T170645.500.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 178
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "2011-12-03T10:15:30",
+  "finishesAt": "2011-12-03T10:16:30"
+}
+
+<> 2023-08-24T170435.400.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 178
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "2011-12-03T10:15:30",
+  "finishesAt": "2011-12-03T10:15:30"
+}
+
+<> 2023-08-24T170405.400.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 178
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "2020-12-12T12:00:00",
+  "finishesAt": "2020-12-12T12:30:00"
+}
+
+<> 2023-08-24T170154.400.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 178
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "2020-12-12T12:00:00",
+  "finishesAt": "2020-12-12T12:30:00"
+}
+
+<> 2023-08-24T170131.400.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 178
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "2020-12-12T12:00:00",
+  "finishesAt": "2020-12-12T12:30:00"
+}
+
+<> 2023-08-24T165843.400.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 178
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "patient": {
+    "id": 1
+  },
+    "doctor": {
+        "id": 1
+    },
+  "room": {
+    "id": 1
+  },
+  "startsAt": "2020-12-12T12:00:00",
+  "finishesAt": "2020-12-12T12:30:00"
+}
+
+<> 2023-08-24T165750.400.json
+
+###
+
+GET http://localhost:8080/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T165140.404.json
+
+###
+
+POST http://localhost:8080/api/appointment
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T165026.400.json
+
+###
+
+GET http://localhost:8080/api/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost/phpmyadmin/index.php?route=/database/structure&db=accwe-hospital/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: phpMyAdmin=lhd5bi92i4sq1capifrt4cora7; pma_lang=en
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T155605.200.html
+
+###
+
+GET http://localhost/phpmyadmin/accwe-hospital:8080/api/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T155225.404.html
+
+###
+
+GET http://localhost/phpmyadmin/:8080/api/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T155138.404.html
+
+###
+
+GET http://localhost/phpmyadmin/:8080/api/appointments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-24T154547.404.html
+
+###
+
